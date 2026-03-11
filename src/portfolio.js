@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Santosh Rokaya",
-  title: "Hi all, I'm Santos",
+  title: "Hi all, I'm Santosh",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / Nodejs / Angular js and some other cool libraries and frameworks."
+      "A passionate Full Stack .NET Developer with hands-on experience in building scalable APIs and modern web applications using ASP.NET Web Forms, ASP.NET Core, Web API, and SQL Server. I also work with Angular, JavaScript, TypeScript, and Node.js, along with tools like Dapper, EF Core, and Autofac. Additionally, I have experience with Azure Functions and CI/CD pipelines for cloud-based application development."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
     github: "https://github.com/SantosRokaya",
     linkedin: "https://np.linkedin.com/in/santos-rokaya",
-    gmail: "saadpasta70@gmail.com",
+    gmail: "santoshrokaya2022@gmail.com",
     gitlab: "https://gitlab.com/",
     facebook: "https://www.facebook.com/santosh123.rokaya/",
     medium: "https://medium.com/",
@@ -52,18 +52,49 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+      "⚡ Develop scalable web applications and RESTful APIs using ASP.NET Core, Web API, and SQL Server"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Build modern and responsive front-end applications using Angular, JavaScript, HTML5, CSS3, and Sass"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Implement efficient data access using Dapper and Entity Framework Core"
+      ),
+      emoji(
+          "⚡ Build and manage CI/CD pipelines and containerized applications using Docker"
+      )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
+    softwareSkills: [
+    {
+        skillName: "ASP.NET Web Forms",
+        fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+        skillName: "ASP.NET Core",
+        fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+        skillName: "Web API",
+        fontAwesomeClassname: "fas fa-code"
+    },
+    {
+        skillName: "Dapper",
+        fontAwesomeClassname: "fas fa-database"
+    },
+    {
+        skillName: "Ef Core",
+        fontAwesomeClassname: "fas fa-database"
+    },
+    {
+        skillName: "Azure Functions",
+        fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+        skillName: "CI/CD Pipelines",
+        fontAwesomeClassname: "fas fa-cogs"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -113,9 +144,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+        skillName: "docker",
+        fontAwesomeClassname: "fab fa-docker"
     }
+      
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,21 +158,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Purbanchal University",
+      logo: require("./assets/images/pulogo.png"),
+      subHeader: "Master of Computer Application",
+      duration: "September 2022 - April 2024",
+      desc: "Participated in the research of blockchain technology in e-commerce platforms.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "Banglore University",
+      logo: require("./assets/images/BULogo.png"),
+      subHeader: "Bachelor of Computer Application",
+      duration: "April 2015 - Jun 2018",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -174,10 +206,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Mid Level .Net Developer",
+      company: "Codeology Tech Pvt Ltd.",
+      companylogo: require("./assets/images/codeology_logo.png"),
+      date: "Aug 2024 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -185,17 +217,17 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Jr. Dot Net Developer",
+      company: "Sarvanam Software Pvt. Ltd",
+        companylogo: require("./assets/images/sarvanam-logo.png"),
+      date: "Sep 2021 – Jul 2024",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      role: "Intern Software Developer",
+      company: "Tech One Global Nepal(Pvt) Ltd",
+        companylogo: require("./assets/images/techone_logo.png"),
+      date: "Oct 2020 – Sep 2021",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
@@ -211,121 +243,121 @@ const openSource = {
 
 // Some big projects you have worked on
 
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//const bigProjects = {
+//  title: "Big Projects",
+//  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+//  projects: [
+//    {
+//      image: require("./assets/images/saayaHealthLogo.webp"),
+//      projectName: "Saayahealth",
+//      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+//      footerLink: [
+//        {
+//          name: "Visit Website",
+//          url: "http://saayahealth.com/"
+//        }
+//        //  you can add extra buttons here.
+//      ]
+//    },
+//    {
+//      image: require("./assets/images/nextuLogo.webp"),
+//      projectName: "Nextu",
+//      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+//      footerLink: [
+//        {
+//          name: "Visit Website",
+//          url: "http://nextu.se/"
+//        }
+//      ]
+//    }
+//  ],
+//  display: true // Set false to hide this section, defaults to true
+//};
 
 // Achievement Section
 // Include certificates, talks etc
 
-const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
-  achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//const achievementSection = {
+//  title: emoji("Achievements And Certifications 🏆 "),
+//  subtitle:
+//    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+//
+//  achievementsCards: [
+//    {
+//      title: "Google Code-In Finalist",
+//      subtitle:
+//        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+//      image: require("./assets/images/codeInLogo.webp"),
+//      imageAlt: "Google Code-In Logo",
+//      footerLink: [
+//        {
+//          name: "Certification",
+//          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+//        },
+//        {
+//          name: "Award Letter",
+//          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+//        },
+//        {
+//          name: "Google Code-in Blog",
+//          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+//        }
+//      ]
+//    },
+//    {
+//      title: "Google Assistant Action",
+//      subtitle:
+//        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+//      image: require("./assets/images/googleAssistantLogo.webp"),
+//      imageAlt: "Google Assistant Action Logo",
+//      footerLink: [
+//        {
+//          name: "View Google Assistant Action",
+//          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+//        }
+//      ]
+//    },
+//
+//    {
+//      title: "PWA Web App Developer",
+//      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+//      image: require("./assets/images/pwaLogo.webp"),
+//      imageAlt: "PWA Logo",
+//      footerLink: [
+//        {name: "Certification", url: ""},
+//        {
+//          name: "Final Project",
+//          url: "https://pakistan-olx-1.firebaseapp.com/"
+//        }
+//      ]
+//    }
+//  ],
+//  display: true // Set false to hide this section, defaults to true
+//};
 
 // Blogs Section
 
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//const blogSection = {
+//  title: "Blogs",
+//  subtitle:
+//    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+//  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+//  blogs: [
+//    {
+//      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+//      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+//      description:
+//        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+//    },
+//    {
+//      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+//      title: "Why REACT is The Best?",
+//      description:
+//        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+//    }
+//  ],
+//  display: true // Set false to hide this section, defaults to true
+//};
 
 // Talks Sections
 
@@ -395,9 +427,9 @@ export {
   techStack,
   workExperiences,
   openSource,
-  bigProjects,
-  achievementSection,
-  blogSection,
+  /*bigProjects,*/
+  /*achievementSection,*/
+  /*blogSection,*/
   talkSection,
   podcastSection,
   contactInfo,

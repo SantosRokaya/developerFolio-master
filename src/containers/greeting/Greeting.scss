@@ -41,12 +41,15 @@
 .download-link-button {
   text-decoration: none;
 }
-
 .greeting-text {
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+}
+/*.greeting-text {
   font-size: 70px;
   line-height: 1.1;
   color: $textColor !important;
-}
+}*/
 
 .greeting-text-p {
   font-size: 30px;
