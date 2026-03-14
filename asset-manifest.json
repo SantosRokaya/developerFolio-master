@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.98df3f63.css",
-    "main.js": "/static/js/main.982a2a91.js",
+    "main.js": "/static/js/main.26b295f9.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -9,7 +9,6 @@
     "static/media/pulogo.png": "/static/media/pulogo.d9a17aeede007c5bee49.png",
     "static/media/sarvanam-logo.png": "/static/media/sarvanam-logo.b3ae9764937ece684c0f.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/Santoss_CV.pdf": "/static/media/Santoss_CV.866ddf8fbc9ec1363d74.pdf",
     "static/media/codeology_logo.png": "/static/media/codeology_logo.470ac79d437c9f69b2d2.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -20,7 +19,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.98df3f63.css.map": "/static/css/main.98df3f63.css.map",
-    "main.982a2a91.js.map": "/static/js/main.982a2a91.js.map",
+    "main.26b295f9.js.map": "/static/js/main.26b295f9.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -28,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.98df3f63.css",
-    "static/js/main.982a2a91.js"
+    "static/js/main.26b295f9.js"
   ]
 }
