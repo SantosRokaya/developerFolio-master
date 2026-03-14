@@ -42,7 +42,7 @@
   text-decoration: none;
 }
 .greeting-text {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman";
     text-align: justify;
 }
 /*.greeting-text {
@@ -52,8 +52,12 @@
 }*/
 
 .greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: "Times New Roman";
+    text-align: justify;
+    word-spacing: normal;
+    letter-spacing: normal;
 }
 
 .greeting-image-div > img {
@@ -95,12 +99,15 @@
 
 /* Media Query */
 @media (max-width: 1380px) {
-  .greeting-text {
-    font-size: 50px;
-  }
-  .greeting-text-p {
-    font-size: 20px;
-  }
+    .greeting-text {
+        font-size: 50px;
+        font-family: "Times New Roman";
+    }
+    .greeting-text-p {
+        font-size: 20px;
+        font-family: "Times New Roman";
+        text-align: justify;
+    }
 }
 @media (max-width: 768px) {
   .button-greeting-div {
