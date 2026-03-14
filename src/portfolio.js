@@ -164,8 +164,8 @@ const educationInfo = {
       duration: "September 2022 - April 2024",
       desc: "Participated in the research of blockchain technology in e-commerce platforms.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Researched blockchain applications for secure e-commerce transactions",
+        "Worked on database design and REST API development"
       ]
     },
     {
@@ -174,7 +174,9 @@ const educationInfo = {
       subHeader: "Bachelor of Computer Application",
       duration: "April 2015 - Jun 2018",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        descBullets: ["Built academic projects using ASP.NET framework, ADO.NET and Microsoft SQL Server",
+                      "Participated in coding assignments and software development projects"
+        ]
     }
   ]
 };
@@ -210,10 +212,11 @@ const workExperiences = {
       company: "Codeology Tech Pvt Ltd.",
       companylogo: require("./assets/images/codeology_logo.png"),
       date: "Aug 2024 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Develop, test, maintain, upgrade, configure and debug scalable applications using ASP.NET 8, Blazor, and Azure Functions. Collaborate with team members on REST API development and CI/CD pipeline implementation.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed financial intermediaries service tracking form for USAID MIS project",
+        "Worked on social media login integration and documentRestAPI for handling XML and PDF content using Azure functions",
+        "Implemented GroupAdmin functionality for managing user groups, packages and addons with JWT authentication"
       ]
     },
     {
@@ -221,14 +224,25 @@ const workExperiences = {
       company: "Sarvanam Software Pvt. Ltd",
         companylogo: require("./assets/images/sarvanam-logo.png"),
       date: "Sep 2021 – Jul 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Planned, designed and developed new features and functionality for multiple software applications. Identified, troubleshooted and debugged defects while coordinating with QA and implementation teams. Worked on Restaurant Management, School Management, Employee Management, and Revenue Management Systems using ASP.NET Core and Angular.",
+      descBullets: [
+        "Designed and developed kitchen order token screen for POS module and TDS feature in finance module of Restaurant Management System",
+        "Developed front office, point of sales and finance reports API for Owner mobile app with Web API",
+        "Implemented HR module for Employee Management System including employee details, leave management, and shift scheduling",
+        "Worked on booking and reservation modules with API integration for Revenue Management System channel manager synchronization"
+      ]
     },
     {
       role: "Intern Software Developer",
       company: "Tech One Global Nepal(Pvt) Ltd",
         companylogo: require("./assets/images/techone_logo.png"),
       date: "Oct 2020 – Sep 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Produced code using .NET (C#), upgraded, configured and debugged existing systems while providing technical support. Enhanced customer information sections and worked on automated workflow systems for loan approval processes.",
+      descBullets: [
+        "Enhanced customer information section for Loan Originating System",
+        "Worked on automated workflow system for loan approval processes with different layers of approval management",
+        "Developed and maintained systems using AngularJS, ASP.NET MVC with Microsoft SQL Server"
+      ]
     }
   ]
 };
