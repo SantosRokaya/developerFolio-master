@@ -26,3 +26,9 @@ yarn-error.log*
 #user generated content
 public/profile.json
 public/blogs.json
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
