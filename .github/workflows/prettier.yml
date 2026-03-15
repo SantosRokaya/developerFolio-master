@@ -6,6 +6,7 @@ on:
         - master
 jobs:
   check-format:
+    if: github.actor != 'cloudflare-workers-and-pages[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
